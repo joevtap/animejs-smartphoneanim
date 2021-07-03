@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121212;
+    min-height: 200vh;
+}
+
+.app_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.phone_svg {
+    height: 600px;
+}
+
+/* Phone SVG */
+.phone_svg,
+#SearchBar,
+#Go,
+#Graph,
+#GraphPath,
+#Img04,
+#Img03,
+#Img02,
+#Img01,
+#Control {
+    opacity: 0;
+}
